@@ -1,0 +1,8 @@
+1. ssh-keygen -t rsa -C "pailot_m_group_31" --- создание ssh ключа
+2. git clone git@github.com:pailotm/pailot_m_group_31.git  --- клонирование репозитория «pailot_m_group_31»
+3. git status  --- проверка гит статуса
+4. cat > names.json  ---  создание .json файла
+{"person_name":"alexandr"}  ---  с записью {"person_name":"alexandr"}
+5. git add names.json  ---  добавление файла names.json в репу
+6. git commit -m "add names.json"  ---  фотография состояния файла names.json
+7. git push  --- синхронизация реп и передача изменений
