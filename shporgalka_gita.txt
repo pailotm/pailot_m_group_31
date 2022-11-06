@@ -156,6 +156,6 @@ https://proglib.io/p/git-github-gitflow/
 
 https://proglib.io/p/system-git/
 
-Книга по Git
+Книга по Git  https://git-scm.com/book/ru/v1
 
-Официальные видео уроки по Git
+Официальные видео уроки по Git  https://git-scm.com/videos
