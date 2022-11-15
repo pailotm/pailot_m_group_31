@@ -15,17 +15,22 @@ Linux terminal (GitBash) commands
     touch HW_1.txt HW_2.txt HW_3.txt HW_1.json HW_2.json
 7) Создать 3 папки
     mkdir HW_1 HW_2
+
 8. Вывести список содержимого папки
     ls
+
 9) + Открыть любой txt файл
     cat > HW_1.txt ,
         если в nano
             nano HW_1.txt
+
 10) + написать туда что-нибудь, любой текст.
     proba1
+
 11) + сохранить и выйти.
     если в cat: Enter Ctrl+c,
         если в nano: Ctrl+o Ctrl+x Enter
+
 12) Выйти из папки на уровень выше
     cd ..
 —
