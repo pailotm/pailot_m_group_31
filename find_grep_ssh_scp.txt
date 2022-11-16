@@ -1,0 +1,37 @@
+ls -la -r terminal_2/r2/
+    вывести список из папки terminal_2/r2/  -r(рекурсивно)
+
+cat - просмотр
+    cat > записать(при записи всё содержимое затрётся)
+        cat >> дописать в конец списка
+
+find r2 -name 'f2.txt'
+    find(поиск) r2(где ищем(если вместо r2 ставим . то ищет во всей директории где сидишь))
+        -name(по чему ищем) 'f2.txt'(имя файла)
+            find ../r3 -name 'f2.txt'  выходим и ищем в директории r3
+
+find r2 -name '*f1*'
+    поиск по имени в котором присутствует f1
+find . -type f -name '*f1*'
+    -type f  ищем только файлы
+        find . -type d -name '*f1*'
+            -type d  ищем только директории
+
+grep line f3.txt
+    поиск(grep) ищем(line) в файле(f3.txt)
+grep line_1 f3.txt
+    поиск(grep) ищем(line_1) в файле(f3.txt)
+grep -w line_1 f3.txt
+    поиск(grep) ищем только(line_1) в файле(f3.txt)
+
+grep -l -r line_100 .
+    поиск(grep) ищем в каком файле есть запись(line_100) (.)ищем везде
+
+grep line_10 . > copy_lines.txt
+    поиск(grep) ищем(line_100) везде(.) с записью(>) в файл(copy_lines.txt)
+
+ssh test_31@23.88.52.139
+    подключение к серверу
+
+scp test_31@23.88.52.139:/home/test_31/names_file_1.txt /home/nafigatar
+    копирование с сервера   от куда  ===>  куда
